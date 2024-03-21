@@ -159,18 +159,16 @@
         <p>Para inscribirse a cualquiera de nuestros campus favor de completar el documento correspondiente:</p>
 
        <div class="pdf-container">
-            <button class="boton" onclick="mostrarPDF('https://www.colegiobiblico.net/_files/ugd/f2cae0_61dcda9ac1ee4eb1a83c26dc9739e6fb.pdf')">Campus Piedras Negras</button>
-            <button class="boton" onclick="mostrarPDF('https://www.colegiobiblico.net/_files/ugd/f2cae0_28cc6ab06a984f7aaa4248bd49364628.pdf')">Campus Eagle Pass</button>
+            <a href="https://www.colegiobiblico.net/_files/ugd/f2cae0_61dcda9ac1ee4eb1a83c26dc9739e6fb.pdf" target="_blank" class="boton">Campus Piedras Negras</a>
+            <a href="https://www.colegiobiblico.net/_files/ugd/f2cae0_28cc6ab06a984f7aaa4248bd49364628.pdf" target="_blank" class="boton">Campus Eagle Pass</a>
         </div>
         
-        <!-- Contenedor para mostrar el PDF -->
-        <div id="pdfViewer" class="pdf-embed"></div>
-    </div>
+       
 
     <script>
-        function mostrarPDF(url) {
-            document.getElementById('pdfViewer').innerHTML = `<iframe class="pdf-embed" src="${url}"></iframe>`;
-        }
+       // function mostrarPDF(url) {
+           // document.getElementById('pdfViewer').innerHTML = `<iframe class="pdf-embed" src="${url}"></iframe>`;
+      //  }
     </script>
 </body>
 </html>
