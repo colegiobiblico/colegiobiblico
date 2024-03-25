@@ -94,9 +94,15 @@
         .materias {
             display: none;
             margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            position: absolute;
+            z-index: 1;
         }
 
-        .carrera:hover + .materias {
+        .carrera:hover .materias {
             display: block;
         }
 
@@ -161,55 +167,63 @@
         
         <!-- Carreras como enlaces -->
         <ul>
-            <li><span class="carrera">Educación Cristiana</span>
-                <p>Es un programa para los que quieren obtener una preparación básica y completar sus estudios en solamente dos años. Se requiere un total de 64 horas con un promedio de "C" (2.0) o mejor. Hay un total de 56 horas obligatorias y 8 horas de materias electivas.</p>
-                <ul class="materias">
-                    <!-- Agrega las materias aquí -->
-                </ul>
-            </li>
+    <li><span class="carrera">Educación Cristiana</span>
+        <div class="materias">
+            <p>Es un programa para los que quieren obtener una preparación básica y completar sus estudios en solamente dos años. Se requiere un total de 64 horas con un promedio de "C" (2.0) o mejor. Hay un total de 56 horas obligatorias y 8 horas de materias electivas.</p>
+            <ul>
+                <li>Materia electiva 1</li>
+                <li>Materia electiva 2</li>
+                <li>Materia electiva 3</li>
+                <!-- Agregar más materias electivas si es necesario -->
+            </ul>
+        </div>
+    </li>
 
-            <li><span class="carrera">Estudios Bíblicos</span>
-                <p>Es un programa de estudios de cuatro años para todos los estudiantes que aspiran a un ministerio vocacional permanente. Se requiere un total de 128 horas con un promedio de "C" (2.0) o mejor. Hay un total de 106 horas obligatorias y 22 horas de materias electivas.</p>
-                <ul class="materias">
-                    <!-- Agrega las materias aquí -->
-                </ul>
-            </li>
+    <li><span class="carrera">Estudios Bíblicos</span>
+        <div class="materias">
+            <p>Es un programa de estudios de cuatro años para todos los estudiantes que aspiran a un ministerio vocacional permanente. Se requiere un total de 128 horas con un promedio de "C" (2.0) o mejor. Hay un total de 106 horas obligatorias y 22 horas de materias electivas.</p>
+            <ul>
+                <li>Materia electiva 1</li>
+                <li>Materia electiva 2</li>
+                <li>Materia electiva 3</li>
+                <!-- Agregar más materias electivas si es necesario -->
+            </ul>
+        </div>
+    </li>
 
-            <li><span class="carrera">Literatura Sagrada</span>
-                <p>Es un programa de estudios de cuatro años para todos los estudiantes que aspiran a un ministerio vocacional permanente. Se requiere un total de 138 horas con un promedio de "C" (2.0) o mejor.</p>
-                <ul class="materias">
-                    <!-- Agrega las materias aquí -->
-                </ul>
-            </li>
+    <li><span class="carrera">Literatura Sagrada</span>
+        <div class="materias">
+            <p>Es un programa de estudios de cuatro años para todos los estudiantes que aspiran a un ministerio vocacional permanente. Se requiere un total de 128 horas con un promedio de "C" (2.0) o mejor. Hay un total de 106 horas obligatorias y 22 horas de materias electivas.</p>
+            <ul>
+                <li>Materia electiva 1</li>
+                <li>Materia electiva 2</li>
+                <li>Materia electiva 3</li>
+                <!-- Agregar más materias electivas si es necesario -->
+            </ul>
+        </div>
+    </li>
 
-            <li><span class="carrera">Ciencia Ministerial</span>
-                <p>Es un programa de estudios de cuatro años para todos los estudiantes que aspiran a un ministerio vocacional permanente. Se requiere un total de 138 horas con un promedio de "C" (2.0) o mejor.</p>
-                <ul class="materias">
-                    <!-- Agrega las materias aquí -->
-                </ul>
-            </li>
+    <li><span class="carrera">Ciencia Ministerial</span>
+        <div class="materias">
+            <p>Es un programa de estudios de cuatro años para todos los estudiantes que aspiran a un ministerio vocacional permanente. Se requiere un total de 138 horas con un promedio de "C" (2.0) o mejor.</p>
+            <ul>
+                <li>Materia electiva 1</li>
+                <li>Materia electiva 2</li>
+                <li>Materia electiva 3</li>
+                <!-- Agregar más materias electivas si es necesario -->
+            </ul>
+        </div>
+    </li>
 
-            <li><span class="carrera">Teología</span>
-                <p>Es un programa de estudios de cuatro o cinco años. Antes de entrar a este programa, el estudiante tiene que presentar al administrador académico comprobante de haber completado estudios de preparatoria o más. Requiere un total de 160 horas con un promedio de "B" (3.0) o mejor. Hay un total de 142 horas obligatorias y 18 horas de materias electivas. El alumno debe obtener el permiso del administrador académico para poder terminar el programa de estudios en cinco años.</p>
-                <ul class="materias">
-                    <li>Metodología y Práctica de Estudio</li>
-                    <li>Computación</li>
-                    <li>Introducción a la Psicología</li>
-                    <li>Introducción Bíblica</li>
-                    <li>Introducción a la Educación Cristiana</li>
-                    <li>Evangelismo</li>
-                    <li>Hermenéutica</li>
-                    <li>Historia y principios del movimiento de restauracion</li>
-                    <li>Principios del Movimiento de Restauración</li>
-                    <li>Pentateuco I o Pentateuco II</li>
-                    <li>Historia Hebrea I</li>
-                    <li>Profetas I o Profetas II</li>
-                    <li>Evangelios I o Evangelios II</li>
-                    <li>Libros de Sabiduría</li>
-                    <li>Libros Poéticos</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</body>
-</html>
+    <li><span class="carrera">Teología</span>
+        <div class="materias">
+            <p>Es un programa de estudios de cuatro o cinco años. Antes de entrar a este programa, el estudiante tiene que presentar al administrador académico comprobante de haber completado estudios de preparatoria o más. Requiere un total de 160 horas con un promedio de "B" (3.0) o mejor. Hay un total de 142 horas obligatorias y 18 horas de materias electivas. El alumno debe obtener el permiso del administrador académico para poder terminar el programa de estudios en cinco años.</p>
+            <ul>
+                <li>Materia electiva 1</li>
+                <li>Materia electiva 2</li>
+                <li>Materia electiva 3</li>
+                <!-- Agregar más materias electivas si es necesario -->
+            </ul>
+        </div>
+    </li>
+</ul>
